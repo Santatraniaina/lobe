@@ -1,3 +1,24 @@
+
+@font-face {
+    font-family: 'LabGrotesque Regular';
+    src: url('/assets/fonts/LabGrotesque-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LabGrotesque Medium';
+    src: url('/assets/fonts/LabGrotesque-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LabGrotesque Black';
+    src: url('/assets/fonts/LabGrotesque-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LabGrotesque Bold';
+    src: url('/assets/fonts/LabGrotesque-Bold.woff2') format('woff2');
+}
+
 :root {
     --green : #04ddb2;
     --black : #333;
@@ -9,9 +30,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
     flex-direction: column;
     justify-content: center;
+    background: var(--white);
+    font-family: 'LabGrotesque Regular', sans-serif;
 }
 
 ul, li {
