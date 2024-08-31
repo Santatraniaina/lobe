@@ -1,22 +1,22 @@
 
 @font-face {
     font-family: 'LabGrotesque Regular';
-    src: url('/assets/fonts/LabGrotesque-Regular.woff2') format('woff2');
+    src: url('./assets/fonts/LabGrotesque-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'LabGrotesque Medium';
-    src: url('/assets/fonts/LabGrotesque-Medium.woff2') format('woff2');
+    src: url('./assets/fonts/LabGrotesque-Medium.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'LabGrotesque Black';
-    src: url('/assets/fonts/LabGrotesque-Black.woff2') format('woff2');
+    src: url('./assets/fonts/LabGrotesque-Black.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'LabGrotesque Bold';
-    src: url('/assets/fonts/LabGrotesque-Bold.woff2') format('woff2');
+    src: url('./assets/fonts/LabGrotesque-Bold.woff2') format('woff2');
 }
 
 :root {
