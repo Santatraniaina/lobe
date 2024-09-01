@@ -29,9 +29,6 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background: var(--white);
     font-family: 'LabGrotesque Regular', sans-serif;
 }
@@ -45,6 +42,31 @@ ul, li {
 a {
     text-decoration: none;
     color: var(--black);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 75px;
+}
+
+header > nav > ul {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.15em;
+    color: var(--grey);
+}
+
+.button {
+    background: var(--green);
+    color: var(--white);
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 1.15em;
+    font-weight: 600;
 }
 
 .video {
