@@ -104,6 +104,24 @@ h1 {
     color: var(--green);
 }
 
+
+
+
+.cta {
+    margin: 100px 0;
+}
+
+.cta > h1 {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.cta > a.button {
+    padding: 12px 35px;
+    font-size: 1.25rem;
+}
+
 .video {
     width: 560px;
     height: 340px;
