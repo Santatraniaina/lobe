@@ -122,7 +122,49 @@ h1 {
     font-size: 1.25rem;
 }
 
-.video {
-    width: 560px;
-    height: 340px;
+
+
+
+hr {
+    width: 70%;
+}
+
+footer {
+    display: flex;
+    max-width: 70%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+footer > div > h4 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+footer > div > ul > li {
+    margin-bottom: 20px;
+}
+
+
+
+
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media > a.rounded {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media > a.rounded > .icon {
+    color: var(--white);
 }
