@@ -60,6 +60,11 @@ header {
     right: 0;
 }
 
+header > a > img {
+    backdrop-filter: blur(20px);
+    background-color: hsla(0, 0%, 100%, .8);
+}
+
 header > nav > ul {
     display: flex;
     gap: 3rem;
@@ -76,6 +81,13 @@ header > nav > ul {
     border-radius: 25px;
     font-size: 1.15em;
     font-weight: 600;
+}
+
+.menu-button {
+    padding: 15px 15px;
+    border-radius: 50%;
+    border-width: 0;
+    display: none;
 }
 
 
@@ -161,9 +173,6 @@ footer > div > ul > li {
     margin-bottom: 20px;
 }
 
-
-
-
 .social-media {
     display: flex;
     gap: 15px;
@@ -182,4 +191,112 @@ footer > div > ul > li {
 
 .social-media > a.rounded > .icon {
     color: var(--white);
+}
+
+
+
+
+
+/* =============================================================================================== */
+/*                                      MEDIA QUERY BREAKPOINT                                     */
+/* =============================================================================================== */
+
+/* .container {
+    border: 2px solid red;
+} */
+
+/* Laptop */
+@media (max-width: 1024px) {
+    header {
+        padding: 15px 45px;
+    }
+    header > nav > ul {
+        gap: 1.5rem;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .button {
+        padding: 10px 20px;
+        border-radius: 22px;
+        font-size: 1em;
+    }
+
+    .hero > img.video {
+        margin-top: 60px;
+        width: 700px;
+        height: 375px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    footer {
+        max-width: 80%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 25px;
+    }
+
+    header > nav > ul {
+        gap: 1.5rem;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .button {
+        padding: 10px 20px;
+        border-radius: 22px;
+        font-size: 1em;
+    }
+    
+    .hero > img.video {
+        margin-top: 40px;
+        width: 500px;
+        height: 285px;
+    }
+}
+
+/* Mobile XL */
+@media (max-width: 678px) {
+    header > nav,
+    header > a.button {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    main {
+        margin-top: 130px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .hero > p {
+        font-size: 1rem;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+}
+
+/* Mobile M*/
+@media (max-width: 375px) {
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
 }
