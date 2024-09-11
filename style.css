@@ -91,6 +91,35 @@ header > nav > ul {
     display: none;
 }
 
+.menu-on-mobile-device {
+    border-top: 1px solid var(--grey);
+    z-index: 10;
+    position: sticky;
+    top: 74px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    background-color: hsla(0, 0%, 100%, .8);
+}
+
+.menu-on-mobile-device > ul > li {
+    padding: 20px 31px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: 'LabGrotesque Medium', sans-serif;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+.menu-on-mobile-device > .button {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px 27px;
+}
+
 
 
 main {
